@@ -180,9 +180,11 @@ const revenue = [
   { month: "Dec", revenue: 4800 },
 ];
 
-module.exports = {
+const entity = {
   users,
   customers,
   invoices,
   revenue,
 };
+
+export default entity;
